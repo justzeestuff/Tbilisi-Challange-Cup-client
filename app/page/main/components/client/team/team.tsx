@@ -10,7 +10,7 @@ const Team = () => {
 
   return (
     <section className={style.teamProfile}  >
-      <img src={team.icon} alt="team icon football soccer competetive" />
+      <img src={`${team.icon}`} alt="team icon football soccer competetive" />
       <p>{team.name}</p>
     </section>
   )

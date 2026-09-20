@@ -16,7 +16,7 @@ type Structure = {
 
 const Calendar = () => {
   const [years, setYears] = useState<string[]>([])
-  const [data, setData] = useState<Structure>({'იტვირთება': {}})
+  const [data, setData] = useState<Structure>({})
   const [selected, setSelected] = useState<string>('')
 
   async function FetchData() {
