@@ -7,6 +7,7 @@
 }
 .calendar .title{
     background-color: var(--navigationBg);
+    min-width: 690px;
 }
 .calendar .title p{
     background: var(--highLightedText);
