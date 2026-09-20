@@ -48,8 +48,7 @@ main{
 .pageContainer{
     margin-top: 120px;
     height: 100%;
-    /* overflow-y: scroll; */
-    overflow: hidden;
+    overflow-y: scroll;
 }
 @font-face {
     font-family: bigShoulders;
