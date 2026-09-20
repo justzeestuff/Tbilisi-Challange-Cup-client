@@ -52,6 +52,17 @@
     width: 110px;
     padding: 5px 0;
 }
-.calendar .match{
-    
+.statistics table tr td{
+    padding: 20px 0;
+    text-align: center;
 }
+.calendar .title div img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    overflow: hidden;
+    font-size: 0;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+}   

@@ -4,28 +4,23 @@
 
 .statistics{
     margin-top: 50px;
-    max-height: 400px;
-}
-
-.statistics table{
-    width: 100%;
-    border: none;
-    overflow: hidden;
-    border-collapse: collapse;
-}
-
-.statistics .contents{
-    width: 87%;
-    text-align: center;
+    display: block;
+    overflow: scroll;
 }
 
 .statistics .calendarDropdown{
     padding: 10px 0;
     background-color: var(--navigationBg);
     border-radius: 20px;
+    
+    position: sticky;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
 }
-
-/* header stays a normal table row group */
+.statistics table{
+    min-width: 590px;
+}
 .statistics table thead{
     display: table;
     width: 100%;
@@ -37,12 +32,10 @@
     padding: 20px 0;
 }
 
-/* body becomes its own scrollable block */
 .statistics table tbody{
     display: block;
     width: 100%;
-    max-height: 300px;   /* adjust to taste — this is what actually triggers the scrollbar */
-    overflow-y: auto;
+    max-height: 300px;
 }
 
 .statistics table tbody tr{
@@ -55,10 +48,14 @@
     padding: 20px 0;
     text-align: center;
 }
+
 .statistics table tr img{
     height: 50px;
     width: 50px;
     border-radius: 100px;
     overflow: hidden;
     font-size: 0;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
 }

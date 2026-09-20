@@ -69,13 +69,13 @@ const Calendar = () => {
 
           {data[selected]?.map((match, i) => (
             <section key={i} className={`${style.title} ${style.match}`}>
-              <div className={style.date}>
+              <div className={style.column}>
                 <p>{match.tour}</p>
               </div>
-              <div>
-                <p>{match.team1}</p>
+              <div className={style.column} >
+                <img src={match.team1} alt="team icon soccer football" />
                 <p>{match.team1Points} - {match.team2Points}</p>
-                <p>{match.team2}</p>
+                <img src={match.team1} alt="team icon soccer football" />
               </div>
             </section>
           ))}
